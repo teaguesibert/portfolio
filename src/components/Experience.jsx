@@ -76,7 +76,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full sm:h-screen"
     >
       <div className="max-w-screen-lg mx-auto px-4 pt-36 pb-24 sm:pt-4 sm:pb-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -114,7 +114,7 @@ const Experience = () => {
               href={link}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <p className="mt-4 text-xs sm:text-base">{title}</p>
             </a>
           ))}
         </div>
