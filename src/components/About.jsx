@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        I am a front-end engineer who has experience building websites using HTML, CSS, JavaScript, React, and Tailwind. I am passionate about learning and overcoming new challenges. In addition to being an agile learner, I enjoy working with a team in fast-paced environments.
+        I am a front-end engineer who has experience building websites using React, and Next.js. I am passionate about learning and overcoming new challenges. Whether it's tackling solo projects or working with a team, I enjoy problem solving.
         </p>
 
         <br />

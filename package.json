@@ -1,7 +1,7 @@
 {
   "homepage": "https://teaguesibert.github.io/portfolio",
-  "name": "one-portfolio",
-  "version": "0.1.0",
+  "name": "teague-portfolio",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -12,7 +12,6 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

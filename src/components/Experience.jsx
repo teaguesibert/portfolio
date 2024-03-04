@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -7,6 +6,9 @@ import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import dynamicCert from "../assets/dynamicwebcert.png";
+import nextJs from "../assets/nextjs.png"
+import nodeJs from "../assets/node.png"
+
 
 const Experience = () => {
   const techs = [
@@ -46,6 +48,19 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 7,
+      src: nextJs,
+      title: "Next.js",
+      style: "shadow-gray-300",
+    },
+    {
+      id: 8,
+      src: nodeJs,
+      title: "Next.js",
+      style: "shadow-lime-400",
+    },
+    
     
   ];
 
@@ -76,7 +91,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full sm:h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto px-4 pt-36 pb-24 sm:pt-4 sm:pb-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -86,7 +101,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with:</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2  gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
